@@ -1,0 +1,5 @@
+_target_: loader.config.TSDataConfig
+dataset_type: amazon
+paths:
+  - /some_base_dir/data/amazon_stock_data.csv
+add_config:

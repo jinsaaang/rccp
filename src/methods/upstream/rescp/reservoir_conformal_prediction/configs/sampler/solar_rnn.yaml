@@ -1,0 +1,10 @@
+# @package _global_
+
+#### Sampling params ##########################################################
+T: 0.1
+n_quantiles: 100
+aci_gamma: 0.0
+similarity: "cosine"
+decay: "linear"
+decay_rate: 0.99
+sliding_window: 3900

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# Optional full regeneration may create large forecast/state caches locally.
+src/models_save/lstm_fc/prediction_*.pt
+src/models_save/lstm_fc/state_*.pt

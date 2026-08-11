@@ -1,0 +1,2825 @@
+{
+  "metadata": {
+    "figure": "error_decile_width",
+    "alpha": 0.1,
+    "target_coverage": 0.9,
+    "tag": "full4_mse442_bs256_h128_alpha_sweep_v1_a0p1",
+    "forecaster": "global_lstm",
+    "seed_scope": "seed0 pointwise",
+    "methods_included": [
+      "scp",
+      "enbpi",
+      "spic",
+      "nextcp",
+      "hopcpt",
+      "rescp",
+      "rccp"
+    ],
+    "scp_note": "conf_default renamed to scp",
+    "source": "<repo>/results/analysis/figure_values_alpha01/pointwise_alpha01_all_methods_seed0.csv.gz",
+    "definition": "For each dataset, test points are binned into deciles by realized |Y_t - yhat_t|; rows report method-wise average width/coverage in each decile."
+  },
+  "data": [
+    {
+      "dataset": "air",
+      "method": "scp",
+      "error_decile": 1,
+      "abs_error": 0.7931696925556588,
+      "width": 62.847623630984906,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "scp",
+      "error_decile": 2,
+      "abs_error": 2.3722138101698946,
+      "width": 62.88128652916717,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "scp",
+      "error_decile": 3,
+      "abs_error": 4.053598781430438,
+      "width": 62.86818029072116,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "scp",
+      "error_decile": 4,
+      "abs_error": 5.8169323465423,
+      "width": 63.020679125118825,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8416
+    },
+    {
+      "dataset": "air",
+      "method": "scp",
+      "error_decile": 5,
+      "abs_error": 7.799332578864203,
+      "width": 63.13092350243554,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "scp",
+      "error_decile": 6,
+      "abs_error": 10.188078420933826,
+      "width": 63.15304527872164,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "scp",
+      "error_decile": 7,
+      "abs_error": 13.25594893280656,
+      "width": 63.459158668132126,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8416
+    },
+    {
+      "dataset": "air",
+      "method": "scp",
+      "error_decile": 8,
+      "abs_error": 17.599602839550908,
+      "width": 63.56498751716763,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "scp",
+      "error_decile": 9,
+      "abs_error": 25.039811770226923,
+      "width": 63.854737076749444,
+      "coverage": 0.9510514435071878,
+      "miss_penalty": 0.9002400741853391,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "scp",
+      "error_decile": 10,
+      "abs_error": 56.50758740667696,
+      "width": 64.30114665177616,
+      "coverage": 0.07876915765712249,
+      "miss_penalty": 491.27936215735247,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "enbpi",
+      "error_decile": 1,
+      "abs_error": 0.7931696925888977,
+      "width": 49.0708007744518,
+      "coverage": 0.9984555067126054,
+      "miss_penalty": 0.05989027572836689,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "enbpi",
+      "error_decile": 2,
+      "abs_error": 2.3722138102892756,
+      "width": 49.48351271843364,
+      "coverage": 0.9976238564809314,
+      "miss_penalty": 0.07207526267814116,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "enbpi",
+      "error_decile": 3,
+      "abs_error": 4.053598781684041,
+      "width": 49.5529859850352,
+      "coverage": 0.996673399073304,
+      "miss_penalty": 0.11529763634051622,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "enbpi",
+      "error_decile": 4,
+      "abs_error": 5.816932345524487,
+      "width": 49.96494289360119,
+      "coverage": 0.9910884030418251,
+      "miss_penalty": 0.3011271436858087,
+      "n_points": 8416
+    },
+    {
+      "dataset": "air",
+      "method": "enbpi",
+      "error_decile": 5,
+      "abs_error": 7.7993325800769355,
+      "width": 51.00835892127899,
+      "coverage": 0.9833669953665202,
+      "miss_penalty": 0.6465707647272169,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "enbpi",
+      "error_decile": 6,
+      "abs_error": 10.188078421771392,
+      "width": 51.99118980597158,
+      "coverage": 0.9574670310086729,
+      "miss_penalty": 1.9384767800424365,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "enbpi",
+      "error_decile": 7,
+      "abs_error": 13.255948937437834,
+      "width": 53.627917691328676,
+      "coverage": 0.8972195817490495,
+      "miss_penalty": 5.771986305033753,
+      "n_points": 8416
+    },
+    {
+      "dataset": "air",
+      "method": "enbpi",
+      "error_decile": 8,
+      "abs_error": 17.599602844647986,
+      "width": 55.48072687452474,
+      "coverage": 0.7772365450873233,
+      "miss_penalty": 18.55309371159651,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "enbpi",
+      "error_decile": 9,
+      "abs_error": 25.039811768723848,
+      "width": 59.077966755552815,
+      "coverage": 0.5478198883212546,
+      "miss_penalty": 64.65421214584671,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "enbpi",
+      "error_decile": 10,
+      "abs_error": 56.50758740929423,
+      "width": 71.19056045950995,
+      "coverage": 0.22193180468100274,
+      "miss_penalty": 482.8111942105896,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "spic",
+      "error_decile": 1,
+      "abs_error": 0.7931696925888977,
+      "width": 60.4166855365091,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "spic",
+      "error_decile": 2,
+      "abs_error": 2.3722138102892756,
+      "width": 60.381005757945836,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "spic",
+      "error_decile": 3,
+      "abs_error": 4.053598781684041,
+      "width": 60.46988009987272,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "spic",
+      "error_decile": 4,
+      "abs_error": 5.816932345524487,
+      "width": 60.94922002141467,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8416
+    },
+    {
+      "dataset": "air",
+      "method": "spic",
+      "error_decile": 5,
+      "abs_error": 7.7993325800769355,
+      "width": 61.37374574322025,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "spic",
+      "error_decile": 6,
+      "abs_error": 10.188078421771392,
+      "width": 61.82030244682016,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "spic",
+      "error_decile": 7,
+      "abs_error": 13.255948937437834,
+      "width": 63.081505110055325,
+      "coverage": 0.9870484790874525,
+      "miss_penalty": 0.2953939020860331,
+      "n_points": 8416
+    },
+    {
+      "dataset": "air",
+      "method": "spic",
+      "error_decile": 8,
+      "abs_error": 17.599602844647986,
+      "width": 64.84992601209515,
+      "coverage": 0.9459427349411904,
+      "miss_penalty": 2.7080020403740197,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "spic",
+      "error_decile": 9,
+      "abs_error": 25.039811768723848,
+      "width": 67.4338537825532,
+      "coverage": 0.7515741950813829,
+      "miss_penalty": 25.01223499451735,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "spic",
+      "error_decile": 10,
+      "abs_error": 56.50758740929423,
+      "width": 82.07175105963833,
+      "coverage": 0.2579303789948913,
+      "miss_penalty": 426.0383227342549,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "nextcp",
+      "error_decile": 1,
+      "abs_error": 0.7931696925888977,
+      "width": 55.852043079794534,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "nextcp",
+      "error_decile": 2,
+      "abs_error": 2.3722138102892756,
+      "width": 55.86692806024995,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "nextcp",
+      "error_decile": 3,
+      "abs_error": 4.053598781684041,
+      "width": 56.41424064912691,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "nextcp",
+      "error_decile": 4,
+      "abs_error": 5.816932345524487,
+      "width": 56.605794042688814,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8416
+    },
+    {
+      "dataset": "air",
+      "method": "nextcp",
+      "error_decile": 5,
+      "abs_error": 7.7993325800769355,
+      "width": 58.600170838885255,
+      "coverage": 0.9996435784721397,
+      "miss_penalty": 0.0010504580399507688,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "nextcp",
+      "error_decile": 6,
+      "abs_error": 10.188078421771392,
+      "width": 60.24048618943444,
+      "coverage": 0.9956041344897232,
+      "miss_penalty": 0.08736896730168947,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "nextcp",
+      "error_decile": 7,
+      "abs_error": 13.255948937437834,
+      "width": 62.70902830022369,
+      "coverage": 0.9702946768060836,
+      "miss_penalty": 0.9721137180981074,
+      "n_points": 8416
+    },
+    {
+      "dataset": "air",
+      "method": "nextcp",
+      "error_decile": 8,
+      "abs_error": 17.599602844647986,
+      "width": 66.42513652084077,
+      "coverage": 0.8962813353926578,
+      "miss_penalty": 5.729779640824095,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "nextcp",
+      "error_decile": 9,
+      "abs_error": 25.039811768723848,
+      "width": 72.74229919625756,
+      "coverage": 0.7026256385885707,
+      "miss_penalty": 31.86634396832559,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "nextcp",
+      "error_decile": 10,
+      "abs_error": 56.50758740929423,
+      "width": 92.81156652631167,
+      "coverage": 0.3394321016989426,
+      "miss_penalty": 362.6877052676045,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "hopcpt",
+      "error_decile": 1,
+      "abs_error": 0.7931696925888977,
+      "width": 61.44130092818904,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "hopcpt",
+      "error_decile": 2,
+      "abs_error": 2.3722138102892756,
+      "width": 61.41296306137406,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "hopcpt",
+      "error_decile": 3,
+      "abs_error": 4.053598781684041,
+      "width": 61.43226325502018,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "hopcpt",
+      "error_decile": 4,
+      "abs_error": 5.816932345524487,
+      "width": 61.57098397555913,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8416
+    },
+    {
+      "dataset": "air",
+      "method": "hopcpt",
+      "error_decile": 5,
+      "abs_error": 7.7993325800769355,
+      "width": 61.56055186986498,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "hopcpt",
+      "error_decile": 6,
+      "abs_error": 10.188078421771392,
+      "width": 61.5768616735135,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "hopcpt",
+      "error_decile": 7,
+      "abs_error": 13.255948937437834,
+      "width": 61.82440619958218,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8416
+    },
+    {
+      "dataset": "air",
+      "method": "hopcpt",
+      "error_decile": 8,
+      "abs_error": 17.599602844647986,
+      "width": 62.00089600200365,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "hopcpt",
+      "error_decile": 9,
+      "abs_error": 25.039811768723848,
+      "width": 62.523682762328185,
+      "coverage": 0.8680052275157419,
+      "miss_penalty": 5.8472402019031655,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "hopcpt",
+      "error_decile": 10,
+      "abs_error": 56.50758740929423,
+      "width": 64.04057759242711,
+      "coverage": 0.10134252108827373,
+      "miss_penalty": 490.3472388712686,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "rescp",
+      "error_decile": 1,
+      "abs_error": 0.7931696925556588,
+      "width": 54.16116625638588,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "rescp",
+      "error_decile": 2,
+      "abs_error": 2.3722138101698946,
+      "width": 54.166796023880245,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "rescp",
+      "error_decile": 3,
+      "abs_error": 4.053598781430438,
+      "width": 54.13898644029939,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "rescp",
+      "error_decile": 4,
+      "abs_error": 5.8169323465423,
+      "width": 54.834637743227184,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 8416
+    },
+    {
+      "dataset": "air",
+      "method": "rescp",
+      "error_decile": 5,
+      "abs_error": 7.799332578864203,
+      "width": 56.18308242497327,
+      "coverage": 0.9997623856480932,
+      "miss_penalty": 0.008502591826066294,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "rescp",
+      "error_decile": 6,
+      "abs_error": 10.188078420933826,
+      "width": 56.7389283757871,
+      "coverage": 0.9998811928240465,
+      "miss_penalty": 0.008684230723535701,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "rescp",
+      "error_decile": 7,
+      "abs_error": 13.25594893280656,
+      "width": 59.19860479598384,
+      "coverage": 0.9956036121673004,
+      "miss_penalty": 0.08604295413046578,
+      "n_points": 8416
+    },
+    {
+      "dataset": "air",
+      "method": "rescp",
+      "error_decile": 8,
+      "abs_error": 17.599602839550908,
+      "width": 62.98477298122847,
+      "coverage": 0.9555661161934181,
+      "miss_penalty": 1.7303953447872165,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "rescp",
+      "error_decile": 9,
+      "abs_error": 25.039811770226923,
+      "width": 69.08076230081976,
+      "coverage": 0.721872401093026,
+      "miss_penalty": 24.273353861543537,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "rescp",
+      "error_decile": 10,
+      "abs_error": 56.50758740667696,
+      "width": 96.11112108162054,
+      "coverage": 0.30973030771058574,
+      "miss_penalty": 378.77352431312653,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "rccp",
+      "error_decile": 1,
+      "abs_error": 0.7931696925556588,
+      "width": 50.91145061976952,
+      "coverage": 0.9998811928240465,
+      "miss_penalty": 0.0007429436853985982,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "rccp",
+      "error_decile": 2,
+      "abs_error": 2.3722138101698946,
+      "width": 50.602252569098255,
+      "coverage": 0.9997623856480932,
+      "miss_penalty": 0.003127118094332898,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "rccp",
+      "error_decile": 3,
+      "abs_error": 4.053598781430438,
+      "width": 52.07257299799216,
+      "coverage": 0.9964357847213972,
+      "miss_penalty": 0.06192976315599383,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "rccp",
+      "error_decile": 4,
+      "abs_error": 5.8169323465423,
+      "width": 52.615919414115965,
+      "coverage": 0.9890684410646388,
+      "miss_penalty": 0.22159710570342206,
+      "n_points": 8416
+    },
+    {
+      "dataset": "air",
+      "method": "rccp",
+      "error_decile": 5,
+      "abs_error": 7.799332578864203,
+      "width": 56.0626000625995,
+      "coverage": 0.9784959011524296,
+      "miss_penalty": 0.692044230317334,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "rccp",
+      "error_decile": 6,
+      "abs_error": 10.188078420933826,
+      "width": 59.25587653558274,
+      "coverage": 0.9628133539265772,
+      "miss_penalty": 1.4440781890816208,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "rccp",
+      "error_decile": 7,
+      "abs_error": 13.25594893280656,
+      "width": 64.4429931902923,
+      "coverage": 0.9320342205323194,
+      "miss_penalty": 3.8368678159909697,
+      "n_points": 8416
+    },
+    {
+      "dataset": "air",
+      "method": "rccp",
+      "error_decile": 8,
+      "abs_error": 17.599602839550908,
+      "width": 71.73589151734583,
+      "coverage": 0.8839253890935013,
+      "miss_penalty": 9.113900520056525,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "rccp",
+      "error_decile": 9,
+      "abs_error": 25.039811770226923,
+      "width": 82.79303853718665,
+      "coverage": 0.7847213971723892,
+      "miss_penalty": 25.596793899044794,
+      "n_points": 8417
+    },
+    {
+      "dataset": "air",
+      "method": "rccp",
+      "error_decile": 10,
+      "abs_error": 56.50758740667696,
+      "width": 117.02048618076512,
+      "coverage": 0.5202566235000594,
+      "miss_penalty": 241.4008042239929,
+      "n_points": 8417
+    },
+    {
+      "dataset": "solar",
+      "method": "scp",
+      "error_decile": 1,
+      "abs_error": 0.12182077647975487,
+      "width": 35.07489999946789,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "scp",
+      "error_decile": 2,
+      "abs_error": 0.3321951154154314,
+      "width": 35.275493330178634,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "scp",
+      "error_decile": 3,
+      "abs_error": 0.514058244540479,
+      "width": 33.83461963816039,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "scp",
+      "error_decile": 4,
+      "abs_error": 0.7004810545503611,
+      "width": 32.96442721645762,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "scp",
+      "error_decile": 5,
+      "abs_error": 0.9259292352276701,
+      "width": 34.65125701125048,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "scp",
+      "error_decile": 6,
+      "abs_error": 1.3272002746484226,
+      "width": 35.26803414583808,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "scp",
+      "error_decile": 7,
+      "abs_error": 2.205245753990878,
+      "width": 33.1410722463702,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "scp",
+      "error_decile": 8,
+      "abs_error": 3.703987851835804,
+      "width": 33.64639753038768,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "scp",
+      "error_decile": 9,
+      "abs_error": 7.634206074534396,
+      "width": 38.24839035667046,
+      "coverage": 0.9375902698593691,
+      "miss_penalty": 2.1867449962360017,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "scp",
+      "error_decile": 10,
+      "abs_error": 28.603766905074114,
+      "width": 38.2608739072596,
+      "coverage": 0.22128468263017864,
+      "miss_penalty": 274.1297704159001,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "enbpi",
+      "error_decile": 1,
+      "abs_error": 0.1218207764924592,
+      "width": 23.66269478045775,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "enbpi",
+      "error_decile": 2,
+      "abs_error": 0.3321951153884592,
+      "width": 22.986470567985254,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "enbpi",
+      "error_decile": 3,
+      "abs_error": 0.5140582444594415,
+      "width": 21.699714618959792,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "enbpi",
+      "error_decile": 4,
+      "abs_error": 0.7004810545662881,
+      "width": 20.18877957988175,
+      "coverage": 0.999809958190802,
+      "miss_penalty": 0.00010050154149147184,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "enbpi",
+      "error_decile": 5,
+      "abs_error": 0.9259292350980729,
+      "width": 19.3572047671815,
+      "coverage": 0.9980235651843405,
+      "miss_penalty": 0.0031113546640417133,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "enbpi",
+      "error_decile": 6,
+      "abs_error": 1.3272002746831415,
+      "width": 20.14047758543913,
+      "coverage": 0.9889775750665146,
+      "miss_penalty": 0.03962030704372149,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "enbpi",
+      "error_decile": 7,
+      "abs_error": 2.2052457537591255,
+      "width": 21.610720873114637,
+      "coverage": 0.9746484226529837,
+      "miss_penalty": 0.2640964257223259,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "enbpi",
+      "error_decile": 8,
+      "abs_error": 3.703987852116131,
+      "width": 22.01067277668366,
+      "coverage": 0.9320790573926264,
+      "miss_penalty": 1.4845877980515332,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "enbpi",
+      "error_decile": 9,
+      "abs_error": 7.634206075244238,
+      "width": 25.184282473292654,
+      "coverage": 0.71923223109084,
+      "miss_penalty": 16.41586040698363,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "enbpi",
+      "error_decile": 10,
+      "abs_error": 28.603766904154554,
+      "width": 28.751536011052465,
+      "coverage": 0.21014823261117446,
+      "miss_penalty": 307.75791251147393,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "spic",
+      "error_decile": 1,
+      "abs_error": 0.1218207764924592,
+      "width": 25.175981782009192,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "spic",
+      "error_decile": 2,
+      "abs_error": 0.3321951153884592,
+      "width": 25.336455410544477,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "spic",
+      "error_decile": 3,
+      "abs_error": 0.5140582444594415,
+      "width": 25.144780892357996,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "spic",
+      "error_decile": 4,
+      "abs_error": 0.7004810545662881,
+      "width": 24.90097856358492,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "spic",
+      "error_decile": 5,
+      "abs_error": 0.9259292350980729,
+      "width": 25.47670702323493,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "spic",
+      "error_decile": 6,
+      "abs_error": 1.3272002746831415,
+      "width": 26.17352788650414,
+      "coverage": 0.9979855568225009,
+      "miss_penalty": 0.004652338669536594,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "spic",
+      "error_decile": 7,
+      "abs_error": 2.2052457537591255,
+      "width": 28.342577229684316,
+      "coverage": 0.9881793994678829,
+      "miss_penalty": 0.1179874410016688,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "spic",
+      "error_decile": 8,
+      "abs_error": 3.703987852116131,
+      "width": 29.093580049364707,
+      "coverage": 0.975864690231851,
+      "miss_penalty": 0.5633198713812253,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "spic",
+      "error_decile": 9,
+      "abs_error": 7.634206075244238,
+      "width": 31.589602022450126,
+      "coverage": 0.8616115545419992,
+      "miss_penalty": 7.923460396013075,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "spic",
+      "error_decile": 10,
+      "abs_error": 28.603766904154554,
+      "width": 35.7918345835942,
+      "coverage": 0.2788293424553402,
+      "miss_penalty": 260.074236666463,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "nextcp",
+      "error_decile": 1,
+      "abs_error": 0.1218207764924592,
+      "width": 28.291347123859772,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "nextcp",
+      "error_decile": 2,
+      "abs_error": 0.3321951153884592,
+      "width": 26.879304755517893,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "nextcp",
+      "error_decile": 3,
+      "abs_error": 0.5140582444594415,
+      "width": 24.54702819967759,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "nextcp",
+      "error_decile": 4,
+      "abs_error": 0.7004810545662881,
+      "width": 22.118395461224186,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "nextcp",
+      "error_decile": 5,
+      "abs_error": 0.9259292350980729,
+      "width": 20.82453643424753,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "nextcp",
+      "error_decile": 6,
+      "abs_error": 1.3272002746831415,
+      "width": 20.953294997539686,
+      "coverage": 0.9987837324211326,
+      "miss_penalty": 0.0037558920616344187,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "nextcp",
+      "error_decile": 7,
+      "abs_error": 2.2052457537591255,
+      "width": 21.937104404584304,
+      "coverage": 0.9785252755606233,
+      "miss_penalty": 0.150947263421146,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "nextcp",
+      "error_decile": 8,
+      "abs_error": 3.703987852116131,
+      "width": 23.568858319061057,
+      "coverage": 0.8843025465602432,
+      "miss_penalty": 2.0057729404265325,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "nextcp",
+      "error_decile": 9,
+      "abs_error": 7.634206075244238,
+      "width": 30.869006406304866,
+      "coverage": 0.7080957810718358,
+      "miss_penalty": 16.32180451784964,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "nextcp",
+      "error_decile": 10,
+      "abs_error": 28.603766904154554,
+      "width": 42.46080761144298,
+      "coverage": 0.36157354618015963,
+      "miss_penalty": 233.40982855286086,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "hopcpt",
+      "error_decile": 1,
+      "abs_error": 0.1218207764924592,
+      "width": 17.293761988385736,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "hopcpt",
+      "error_decile": 2,
+      "abs_error": 0.3321951153884592,
+      "width": 16.045009443108366,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "hopcpt",
+      "error_decile": 3,
+      "abs_error": 0.5140582444594415,
+      "width": 15.596408906847476,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "hopcpt",
+      "error_decile": 4,
+      "abs_error": 0.7004810545662881,
+      "width": 17.090468088423332,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "hopcpt",
+      "error_decile": 5,
+      "abs_error": 0.9259292350980729,
+      "width": 20.53677994544313,
+      "coverage": 0.9999239832763208,
+      "miss_penalty": 0.00015679551185831189,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "hopcpt",
+      "error_decile": 6,
+      "abs_error": 1.3272002746831415,
+      "width": 31.551872625100845,
+      "coverage": 0.9814139110604333,
+      "miss_penalty": 0.04460169126306908,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "hopcpt",
+      "error_decile": 7,
+      "abs_error": 2.2052457537591255,
+      "width": 44.06290215927582,
+      "coverage": 0.9354618015963512,
+      "miss_penalty": 0.546998731902415,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "hopcpt",
+      "error_decile": 8,
+      "abs_error": 3.703987852116131,
+      "width": 56.63083076585794,
+      "coverage": 0.880577727099962,
+      "miss_penalty": 2.5396051265494717,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "hopcpt",
+      "error_decile": 9,
+      "abs_error": 7.634206075244238,
+      "width": 79.1581718370879,
+      "coverage": 0.7522995058912961,
+      "miss_penalty": 16.670744779580268,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "hopcpt",
+      "error_decile": 10,
+      "abs_error": 28.603766904154554,
+      "width": 108.40422874169403,
+      "coverage": 0.8330672748004561,
+      "miss_penalty": 57.2141537624636,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rescp",
+      "error_decile": 1,
+      "abs_error": 0.12182077647975487,
+      "width": 16.281941949629417,
+      "coverage": 0.9999239832763208,
+      "miss_penalty": 0.00029905718738122385,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rescp",
+      "error_decile": 2,
+      "abs_error": 0.3321951154154314,
+      "width": 15.706834162694793,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rescp",
+      "error_decile": 3,
+      "abs_error": 0.514058244540479,
+      "width": 15.390806026982137,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rescp",
+      "error_decile": 4,
+      "abs_error": 0.7004810545503611,
+      "width": 14.828802279752944,
+      "coverage": 0.9999619916381604,
+      "miss_penalty": 1.0535001900418093e-05,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rescp",
+      "error_decile": 5,
+      "abs_error": 0.9259292352276701,
+      "width": 14.775528603797035,
+      "coverage": 0.9985936906119346,
+      "miss_penalty": 0.018882523497605472,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rescp",
+      "error_decile": 6,
+      "abs_error": 1.3272002746484226,
+      "width": 17.05372050814899,
+      "coverage": 0.9878753325731661,
+      "miss_penalty": 0.04116707479213227,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rescp",
+      "error_decile": 7,
+      "abs_error": 2.205245753990878,
+      "width": 20.22955069586089,
+      "coverage": 0.9733181299885975,
+      "miss_penalty": 0.271447067454656,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rescp",
+      "error_decile": 8,
+      "abs_error": 3.703987851835804,
+      "width": 22.120782369072597,
+      "coverage": 0.953553781832003,
+      "miss_penalty": 1.0308205874733256,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rescp",
+      "error_decile": 9,
+      "abs_error": 7.634206074534396,
+      "width": 29.601328413698216,
+      "coverage": 0.7573546180159635,
+      "miss_penalty": 12.468944285573544,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rescp",
+      "error_decile": 10,
+      "abs_error": 28.603766905074114,
+      "width": 44.68840660200304,
+      "coverage": 0.38289623717217786,
+      "miss_penalty": 221.18347847960104,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rccp",
+      "error_decile": 1,
+      "abs_error": 0.12182077647975487,
+      "width": 3.8783647110501707,
+      "coverage": 0.9635879893576587,
+      "miss_penalty": 0.048966471913584185,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rccp",
+      "error_decile": 2,
+      "abs_error": 0.3321951154154314,
+      "width": 3.433937629186621,
+      "coverage": 0.9658304827061953,
+      "miss_penalty": 0.08552430056128771,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rccp",
+      "error_decile": 3,
+      "abs_error": 0.514058244540479,
+      "width": 3.37721366404561,
+      "coverage": 0.9561383504370962,
+      "miss_penalty": 0.10637422667544127,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rccp",
+      "error_decile": 4,
+      "abs_error": 0.7004810545503611,
+      "width": 3.774505701865831,
+      "coverage": 0.940668947168377,
+      "miss_penalty": 0.1705038143838617,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rccp",
+      "error_decile": 5,
+      "abs_error": 0.9259292352276701,
+      "width": 4.714835704738502,
+      "coverage": 0.9210186240973014,
+      "miss_penalty": 0.26656136816905357,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rccp",
+      "error_decile": 6,
+      "abs_error": 1.3272002746484226,
+      "width": 8.631440068063094,
+      "coverage": 0.9199923983276321,
+      "miss_penalty": 0.44858319489852533,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rccp",
+      "error_decile": 7,
+      "abs_error": 2.205245753990878,
+      "width": 13.637859347932725,
+      "coverage": 0.9309768148992779,
+      "miss_penalty": 0.8066487620145724,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rccp",
+      "error_decile": 8,
+      "abs_error": 3.703987851835804,
+      "width": 19.844423835648044,
+      "coverage": 0.9008361839604713,
+      "miss_penalty": 1.8817960152786317,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rccp",
+      "error_decile": 9,
+      "abs_error": 7.634206074534396,
+      "width": 39.6925708204713,
+      "coverage": 0.8534397567464842,
+      "miss_penalty": 6.294610138673881,
+      "n_points": 26310
+    },
+    {
+      "dataset": "solar",
+      "method": "rccp",
+      "error_decile": 10,
+      "abs_error": 28.603766905074114,
+      "width": 80.91326957961611,
+      "coverage": 0.733751425313569,
+      "miss_penalty": 66.53792879487827,
+      "n_points": 26310
+    },
+    {
+      "dataset": "electricity",
+      "method": "scp",
+      "error_decile": 1,
+      "abs_error": 0.0028476417168260865,
+      "width": 0.23122366695652175,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "scp",
+      "error_decile": 2,
+      "abs_error": 0.009210583101449272,
+      "width": 0.23122366913043477,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "scp",
+      "error_decile": 3,
+      "abs_error": 0.015800293753623188,
+      "width": 0.23122366521739132,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "scp",
+      "error_decile": 4,
+      "abs_error": 0.021155485188405793,
+      "width": 0.23122366391304344,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "scp",
+      "error_decile": 5,
+      "abs_error": 0.028595789231884057,
+      "width": 0.23122365739130435,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "scp",
+      "error_decile": 6,
+      "abs_error": 0.03790463189855073,
+      "width": 0.23122366217391305,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "scp",
+      "error_decile": 7,
+      "abs_error": 0.04821109117391305,
+      "width": 0.2312236634782609,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "scp",
+      "error_decile": 8,
+      "abs_error": 0.05914567486956521,
+      "width": 0.23122366173913045,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "scp",
+      "error_decile": 9,
+      "abs_error": 0.07649637192753622,
+      "width": 0.23122365956521743,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "scp",
+      "error_decile": 10,
+      "abs_error": 0.12902806457971014,
+      "width": 0.23122365956521734,
+      "coverage": 0.4927536231884058,
+      "miss_penalty": 0.41128851446376813,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "enbpi",
+      "error_decile": 1,
+      "abs_error": 0.0028476417064666752,
+      "width": 0.1627064688482146,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "enbpi",
+      "error_decile": 2,
+      "abs_error": 0.009210583092509836,
+      "width": 0.16393829644590185,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "enbpi",
+      "error_decile": 3,
+      "abs_error": 0.015800293804942703,
+      "width": 0.16956254969472465,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "enbpi",
+      "error_decile": 4,
+      "abs_error": 0.02115548520848371,
+      "width": 0.163817658804465,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "enbpi",
+      "error_decile": 5,
+      "abs_error": 0.028595789187196376,
+      "width": 0.16247728121453434,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "enbpi",
+      "error_decile": 6,
+      "abs_error": 0.037904631832371596,
+      "width": 0.16721482726110928,
+      "coverage": 0.9855072463768116,
+      "miss_penalty": 9.588573289954145e-07,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "enbpi",
+      "error_decile": 7,
+      "abs_error": 0.04821109123851942,
+      "width": 0.16228649927222208,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "enbpi",
+      "error_decile": 8,
+      "abs_error": 0.059145674757335495,
+      "width": 0.16540776473888447,
+      "coverage": 0.8985507246376812,
+      "miss_penalty": 0.03019776033318554,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "enbpi",
+      "error_decile": 9,
+      "abs_error": 0.07649637175642926,
+      "width": 0.1647799736347751,
+      "coverage": 0.6956521739130435,
+      "miss_penalty": 0.08100685865982692,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "enbpi",
+      "error_decile": 10,
+      "abs_error": 0.12902806418529456,
+      "width": 0.16319956209348596,
+      "coverage": 0.08695652173913043,
+      "miss_penalty": 0.9355506603268603,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "spic",
+      "error_decile": 1,
+      "abs_error": 0.0028476417064666752,
+      "width": 0.20838332046633182,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "spic",
+      "error_decile": 2,
+      "abs_error": 0.009210583092509836,
+      "width": 0.20876593650251193,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "spic",
+      "error_decile": 3,
+      "abs_error": 0.015800293804942703,
+      "width": 0.21029844534569891,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "spic",
+      "error_decile": 4,
+      "abs_error": 0.02115548520848371,
+      "width": 0.2076565536899843,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "spic",
+      "error_decile": 5,
+      "abs_error": 0.028595789187196376,
+      "width": 0.2082084257533585,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "spic",
+      "error_decile": 6,
+      "abs_error": 0.037904631832371596,
+      "width": 0.2073031767554905,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "spic",
+      "error_decile": 7,
+      "abs_error": 0.04821109123851942,
+      "width": 0.2091551945693251,
+      "coverage": 0.9855072463768116,
+      "miss_penalty": 0.005139786264170754,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "spic",
+      "error_decile": 8,
+      "abs_error": 0.059145674757335495,
+      "width": 0.2043299653391907,
+      "coverage": 0.9710144927536232,
+      "miss_penalty": 0.0021122935889423475,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "spic",
+      "error_decile": 9,
+      "abs_error": 0.07649637175642926,
+      "width": 0.2188543504562931,
+      "coverage": 0.9565217391304348,
+      "miss_penalty": 0.009315385334733564,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "spic",
+      "error_decile": 10,
+      "abs_error": 0.12902806418529456,
+      "width": 0.21265832799068396,
+      "coverage": 0.4782608695652174,
+      "miss_penalty": 0.5064264501350508,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "nextcp",
+      "error_decile": 1,
+      "abs_error": 0.0028476417064666752,
+      "width": 0.1803375668283822,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "nextcp",
+      "error_decile": 2,
+      "abs_error": 0.009210583092509836,
+      "width": 0.18408028975777,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "nextcp",
+      "error_decile": 3,
+      "abs_error": 0.015800293804942703,
+      "width": 0.1862898296204166,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "nextcp",
+      "error_decile": 4,
+      "abs_error": 0.02115548520848371,
+      "width": 0.18234008766602777,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "nextcp",
+      "error_decile": 5,
+      "abs_error": 0.028595789187196376,
+      "width": 0.18503217723058618,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "nextcp",
+      "error_decile": 6,
+      "abs_error": 0.037904631832371596,
+      "width": 0.18924937127293018,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "nextcp",
+      "error_decile": 7,
+      "abs_error": 0.04821109123851942,
+      "width": 0.1841636412385581,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "nextcp",
+      "error_decile": 8,
+      "abs_error": 0.059145674757335495,
+      "width": 0.19026387515275375,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "nextcp",
+      "error_decile": 9,
+      "abs_error": 0.07649637175642926,
+      "width": 0.19010913242464478,
+      "coverage": 0.9130434782608695,
+      "miss_penalty": 0.008448664692864783,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "nextcp",
+      "error_decile": 10,
+      "abs_error": 0.12902806418529456,
+      "width": 0.18465229264204053,
+      "coverage": 0.10144927536231885,
+      "miss_penalty": 0.7523205660391536,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "hopcpt",
+      "error_decile": 1,
+      "abs_error": 0.0028476417064666752,
+      "width": 0.21669573369233502,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "hopcpt",
+      "error_decile": 2,
+      "abs_error": 0.009210583092509836,
+      "width": 0.2187462708224421,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "hopcpt",
+      "error_decile": 3,
+      "abs_error": 0.015800293804942703,
+      "width": 0.21887077455935272,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "hopcpt",
+      "error_decile": 4,
+      "abs_error": 0.02115548520848371,
+      "width": 0.2163988615291706,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "hopcpt",
+      "error_decile": 5,
+      "abs_error": 0.028595789187196376,
+      "width": 0.21704969155615655,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "hopcpt",
+      "error_decile": 6,
+      "abs_error": 0.037904631832371596,
+      "width": 0.21749447739642597,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "hopcpt",
+      "error_decile": 7,
+      "abs_error": 0.04821109123851942,
+      "width": 0.2174175753109697,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "hopcpt",
+      "error_decile": 8,
+      "abs_error": 0.059145674757335495,
+      "width": 0.21855204563209976,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "hopcpt",
+      "error_decile": 9,
+      "abs_error": 0.07649637175642926,
+      "width": 0.21893634269202966,
+      "coverage": 0.9855072463768116,
+      "miss_penalty": 0.00029733215553171016,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "hopcpt",
+      "error_decile": 10,
+      "abs_error": 0.12902806418529456,
+      "width": 0.22000366838082022,
+      "coverage": 0.391304347826087,
+      "miss_penalty": 0.4927134859389147,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rescp",
+      "error_decile": 1,
+      "abs_error": 0.0028476417168260865,
+      "width": 0.16749745657971013,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rescp",
+      "error_decile": 2,
+      "abs_error": 0.009210583101449272,
+      "width": 0.17298752217391303,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rescp",
+      "error_decile": 3,
+      "abs_error": 0.015800293753623188,
+      "width": 0.1720988488405797,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rescp",
+      "error_decile": 4,
+      "abs_error": 0.021155485188405793,
+      "width": 0.17498049086956521,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rescp",
+      "error_decile": 5,
+      "abs_error": 0.028595789231884057,
+      "width": 0.17321724913043474,
+      "coverage": 0.9855072463768116,
+      "miss_penalty": 0.0037383686956521745,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rescp",
+      "error_decile": 6,
+      "abs_error": 0.03790463189855073,
+      "width": 0.17500263362318844,
+      "coverage": 0.9855072463768116,
+      "miss_penalty": 0.003609951014492754,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rescp",
+      "error_decile": 7,
+      "abs_error": 0.04821109117391305,
+      "width": 0.17387839202898553,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rescp",
+      "error_decile": 8,
+      "abs_error": 0.05914567486956521,
+      "width": 0.17901791413043477,
+      "coverage": 0.927536231884058,
+      "miss_penalty": 0.013093360811594202,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rescp",
+      "error_decile": 9,
+      "abs_error": 0.07649637192753622,
+      "width": 0.1851895772463768,
+      "coverage": 0.8405797101449275,
+      "miss_penalty": 0.07005048855072464,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rescp",
+      "error_decile": 10,
+      "abs_error": 0.12902806457971014,
+      "width": 0.18133489550724635,
+      "coverage": 0.37681159420289856,
+      "miss_penalty": 0.6324178849855072,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rccp",
+      "error_decile": 1,
+      "abs_error": 0.0028476417168260865,
+      "width": 0.15274925939130435,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rccp",
+      "error_decile": 2,
+      "abs_error": 0.009210583101449272,
+      "width": 0.16356755018840577,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rccp",
+      "error_decile": 3,
+      "abs_error": 0.015800293753623188,
+      "width": 0.15485718985507244,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rccp",
+      "error_decile": 4,
+      "abs_error": 0.021155485188405793,
+      "width": 0.1599823993478261,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rccp",
+      "error_decile": 5,
+      "abs_error": 0.028595789231884057,
+      "width": 0.1620771354782609,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rccp",
+      "error_decile": 6,
+      "abs_error": 0.03790463189855073,
+      "width": 0.16187020559420293,
+      "coverage": 0.9855072463768116,
+      "miss_penalty": 0.0024221857971014494,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rccp",
+      "error_decile": 7,
+      "abs_error": 0.04821109117391305,
+      "width": 0.15858251266666668,
+      "coverage": 0.9710144927536232,
+      "miss_penalty": 0.0037560859420289854,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rccp",
+      "error_decile": 8,
+      "abs_error": 0.05914567486956521,
+      "width": 0.1667591255797101,
+      "coverage": 0.8260869565217391,
+      "miss_penalty": 0.030495878405797105,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rccp",
+      "error_decile": 9,
+      "abs_error": 0.07649637192753622,
+      "width": 0.16051004804347824,
+      "coverage": 0.6521739130434783,
+      "miss_penalty": 0.11023731325797101,
+      "n_points": 69
+    },
+    {
+      "dataset": "electricity",
+      "method": "rccp",
+      "error_decile": 10,
+      "abs_error": 0.12902806457971014,
+      "width": 0.16518165327536227,
+      "coverage": 0.2463768115942029,
+      "miss_penalty": 0.7525322298753623,
+      "n_points": 69
+    },
+    {
+      "dataset": "wind",
+      "method": "scp",
+      "error_decile": 1,
+      "abs_error": 0.8750871198956834,
+      "width": 63.10303214748202,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "scp",
+      "error_decile": 2,
+      "abs_error": 2.638348501805054,
+      "width": 63.10303263898917,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "scp",
+      "error_decile": 3,
+      "abs_error": 4.3527161108303245,
+      "width": 63.10303223826715,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "scp",
+      "error_decile": 4,
+      "abs_error": 6.325000653956835,
+      "width": 63.103032748201436,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "scp",
+      "error_decile": 5,
+      "abs_error": 8.338675436462093,
+      "width": 63.1030323935018,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "scp",
+      "error_decile": 6,
+      "abs_error": 10.970836458483754,
+      "width": 63.103032534296034,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "scp",
+      "error_decile": 7,
+      "abs_error": 14.08762062230216,
+      "width": 63.10303201079136,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "scp",
+      "error_decile": 8,
+      "abs_error": 18.201165296028883,
+      "width": 63.10303257400722,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "scp",
+      "error_decile": 9,
+      "abs_error": 25.770369451263537,
+      "width": 63.103031729241884,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "scp",
+      "error_decile": 10,
+      "abs_error": 48.128969489208636,
+      "width": 63.10303242446042,
+      "coverage": 0.03237410071942446,
+      "miss_penalty": 331.6810789853237,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "enbpi",
+      "error_decile": 1,
+      "abs_error": 0.8750871205501419,
+      "width": 56.51964632898783,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "enbpi",
+      "error_decile": 2,
+      "abs_error": 2.6383485002207836,
+      "width": 57.86787720965995,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "enbpi",
+      "error_decile": 3,
+      "abs_error": 4.35271610852183,
+      "width": 58.51091685794321,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "enbpi",
+      "error_decile": 4,
+      "abs_error": 6.325000666885924,
+      "width": 59.58007437205143,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "enbpi",
+      "error_decile": 5,
+      "abs_error": 8.338675447319389,
+      "width": 59.47076504153035,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "enbpi",
+      "error_decile": 6,
+      "abs_error": 10.970836446603712,
+      "width": 59.61958056838934,
+      "coverage": 0.9927797833935018,
+      "miss_penalty": 0.023137171776286096,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "enbpi",
+      "error_decile": 7,
+      "abs_error": 14.08762061853203,
+      "width": 61.52550151193742,
+      "coverage": 0.9928057553956835,
+      "miss_penalty": 0.2722541205316996,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "enbpi",
+      "error_decile": 8,
+      "abs_error": 18.201165326665887,
+      "width": 58.360168622288896,
+      "coverage": 0.9205776173285198,
+      "miss_penalty": 3.3871676173020786,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "enbpi",
+      "error_decile": 9,
+      "abs_error": 25.770369450538166,
+      "width": 61.691100461388324,
+      "coverage": 0.7436823104693141,
+      "miss_penalty": 27.22382046255394,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "enbpi",
+      "error_decile": 10,
+      "abs_error": 48.12896940519484,
+      "width": 61.58026310351255,
+      "coverage": 0.11510791366906475,
+      "miss_penalty": 355.5969509975516,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "spic",
+      "error_decile": 1,
+      "abs_error": 0.8750871205501419,
+      "width": 54.22213149585312,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "spic",
+      "error_decile": 2,
+      "abs_error": 2.6383485002207836,
+      "width": 52.96044141721209,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "spic",
+      "error_decile": 3,
+      "abs_error": 4.35271610852183,
+      "width": 52.693652865688726,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "spic",
+      "error_decile": 4,
+      "abs_error": 6.325000666885924,
+      "width": 52.866223424458674,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "spic",
+      "error_decile": 5,
+      "abs_error": 8.338675447319389,
+      "width": 51.89622812236689,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "spic",
+      "error_decile": 6,
+      "abs_error": 10.970836446603712,
+      "width": 52.85717920103659,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "spic",
+      "error_decile": 7,
+      "abs_error": 14.08762061853203,
+      "width": 53.12057270077493,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "spic",
+      "error_decile": 8,
+      "abs_error": 18.201165326665887,
+      "width": 53.578932607216956,
+      "coverage": 0.9783393501805054,
+      "miss_penalty": 0.4022751129921593,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "spic",
+      "error_decile": 9,
+      "abs_error": 25.770369450538166,
+      "width": 54.93702736314023,
+      "coverage": 0.6967509025270758,
+      "miss_penalty": 20.03371008036369,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "spic",
+      "error_decile": 10,
+      "abs_error": 48.12896940519484,
+      "width": 54.28739204681177,
+      "coverage": 0.0035971223021582736,
+      "miss_penalty": 420.1631347052485,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "nextcp",
+      "error_decile": 1,
+      "abs_error": 0.8750871205501419,
+      "width": 59.36636351852966,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "nextcp",
+      "error_decile": 2,
+      "abs_error": 2.6383485002207836,
+      "width": 59.82401860922252,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "nextcp",
+      "error_decile": 3,
+      "abs_error": 4.35271610852183,
+      "width": 61.17427213785881,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "nextcp",
+      "error_decile": 4,
+      "abs_error": 6.325000666885924,
+      "width": 62.48895330223248,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "nextcp",
+      "error_decile": 5,
+      "abs_error": 8.338675447319389,
+      "width": 62.176155544790554,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "nextcp",
+      "error_decile": 6,
+      "abs_error": 10.970836446603712,
+      "width": 62.77327233187128,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "nextcp",
+      "error_decile": 7,
+      "abs_error": 14.08762061853203,
+      "width": 64.64538499434217,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "nextcp",
+      "error_decile": 8,
+      "abs_error": 18.201165326665887,
+      "width": 62.11507969384589,
+      "coverage": 0.9963898916967509,
+      "miss_penalty": 0.004656684958117098,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "nextcp",
+      "error_decile": 9,
+      "abs_error": 25.770369450538166,
+      "width": 65.90287869587702,
+      "coverage": 0.8483754512635379,
+      "miss_penalty": 8.124615225120571,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "nextcp",
+      "error_decile": 10,
+      "abs_error": 48.12896940519484,
+      "width": 66.64898148543543,
+      "coverage": 0.1474820143884892,
+      "miss_penalty": 311.7562856605585,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "hopcpt",
+      "error_decile": 1,
+      "abs_error": 0.8750871205501419,
+      "width": 63.79043419241047,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "hopcpt",
+      "error_decile": 2,
+      "abs_error": 2.6383485002207836,
+      "width": 63.71396251361723,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "hopcpt",
+      "error_decile": 3,
+      "abs_error": 4.35271610852183,
+      "width": 63.645133565909596,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "hopcpt",
+      "error_decile": 4,
+      "abs_error": 6.325000666885924,
+      "width": 63.43099920012111,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "hopcpt",
+      "error_decile": 5,
+      "abs_error": 8.338675447319389,
+      "width": 63.674290653600586,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "hopcpt",
+      "error_decile": 6,
+      "abs_error": 10.970836446603712,
+      "width": 63.7811536410225,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "hopcpt",
+      "error_decile": 7,
+      "abs_error": 14.08762061853203,
+      "width": 63.95093818362668,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "hopcpt",
+      "error_decile": 8,
+      "abs_error": 18.201165326665887,
+      "width": 63.62119080443675,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "hopcpt",
+      "error_decile": 9,
+      "abs_error": 25.770369450538166,
+      "width": 64.05524713812322,
+      "coverage": 0.9602888086642599,
+      "miss_penalty": 0.8430720580614001,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "hopcpt",
+      "error_decile": 10,
+      "abs_error": 48.12896940519484,
+      "width": 63.853460188392255,
+      "coverage": 0.07913669064748201,
+      "miss_penalty": 325.98012869306604,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "rescp",
+      "error_decile": 1,
+      "abs_error": 0.8750871198956834,
+      "width": 58.680889158273374,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "rescp",
+      "error_decile": 2,
+      "abs_error": 2.638348501805054,
+      "width": 56.98591051985559,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "rescp",
+      "error_decile": 3,
+      "abs_error": 4.3527161108303245,
+      "width": 57.35487061010831,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "rescp",
+      "error_decile": 4,
+      "abs_error": 6.325000653956835,
+      "width": 59.57953384172662,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "rescp",
+      "error_decile": 5,
+      "abs_error": 8.338675436462093,
+      "width": 59.43447808303249,
+      "coverage": 0.9963898916967509,
+      "miss_penalty": 0.01646902599277978,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "rescp",
+      "error_decile": 6,
+      "abs_error": 10.970836458483754,
+      "width": 62.08163244043321,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "rescp",
+      "error_decile": 7,
+      "abs_error": 14.08762062230216,
+      "width": 63.21409392446042,
+      "coverage": 0.9856115107913669,
+      "miss_penalty": 0.7348963453237409,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "rescp",
+      "error_decile": 8,
+      "abs_error": 18.201165296028883,
+      "width": 65.72251779783393,
+      "coverage": 0.9747292418772563,
+      "miss_penalty": 1.569295119133574,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "rescp",
+      "error_decile": 9,
+      "abs_error": 25.770369451263537,
+      "width": 70.16031620577618,
+      "coverage": 0.8880866425992779,
+      "miss_penalty": 9.710211921299639,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "rescp",
+      "error_decile": 10,
+      "abs_error": 48.128969489208636,
+      "width": 73.81975710791367,
+      "coverage": 0.29856115107913667,
+      "miss_penalty": 253.57765224057556,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "rccp",
+      "error_decile": 1,
+      "abs_error": 0.8750871198956834,
+      "width": 43.528530715827344,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "rccp",
+      "error_decile": 2,
+      "abs_error": 2.638348501805054,
+      "width": 45.46986663537906,
+      "coverage": 1.0,
+      "miss_penalty": 0.0,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "rccp",
+      "error_decile": 3,
+      "abs_error": 4.3527161108303245,
+      "width": 49.271836202166064,
+      "coverage": 0.9963898916967509,
+      "miss_penalty": 0.027345595667870034,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "rccp",
+      "error_decile": 4,
+      "abs_error": 6.325000653956835,
+      "width": 54.173699946043165,
+      "coverage": 0.9964028776978417,
+      "miss_penalty": 0.0468636928057554,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "rccp",
+      "error_decile": 5,
+      "abs_error": 8.338675436462093,
+      "width": 54.44132661732852,
+      "coverage": 0.9927797833935018,
+      "miss_penalty": 0.08781061010830325,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "rccp",
+      "error_decile": 6,
+      "abs_error": 10.970836458483754,
+      "width": 59.67054246209386,
+      "coverage": 0.9458483754512635,
+      "miss_penalty": 2.4751164542960287,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "rccp",
+      "error_decile": 7,
+      "abs_error": 14.08762062230216,
+      "width": 65.28354049280576,
+      "coverage": 0.9280575539568345,
+      "miss_penalty": 3.0615962956834526,
+      "n_points": 278
+    },
+    {
+      "dataset": "wind",
+      "method": "rccp",
+      "error_decile": 8,
+      "abs_error": 18.201165296028883,
+      "width": 66.8015009602888,
+      "coverage": 0.8844765342960289,
+      "miss_penalty": 9.051935425992777,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "rccp",
+      "error_decile": 9,
+      "abs_error": 25.770369451263537,
+      "width": 76.34894148014439,
+      "coverage": 0.8122743682310469,
+      "miss_penalty": 21.490253761732852,
+      "n_points": 277
+    },
+    {
+      "dataset": "wind",
+      "method": "rccp",
+      "error_decile": 10,
+      "abs_error": 48.128969489208636,
+      "width": 78.23856573381295,
+      "coverage": 0.44244604316546765,
+      "miss_penalty": 213.68955599496405,
+      "n_points": 278
+    }
+  ],
+  "unavailable": []
+}

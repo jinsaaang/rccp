@@ -1,0 +1,5 @@
+_target_: loader.config.TSDataConfig
+dataset_type: stock-goog
+paths:
+  - /some_base_dir/data/google_stock_data.csv
+add_config:

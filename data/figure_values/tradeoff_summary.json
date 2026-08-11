@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "description": "Averaged alpha=0.1 trade-off values used for the README trade-off figure.",
+    "datasets": ["air", "solar", "wind", "electricity"],
+    "backbones": ["global_lstm", "global_transformer_decoder"],
+    "metrics": ["abs_delta_cov_pct", "winkler", "calibration_time_s"]
+  },
+  "data": [
+    {
+      "method": "scp",
+      "abs_delta_cov_pct": 1.813348986070684,
+      "winkler": 68.68435328217208,
+      "calibration_time_s": 31.498558985029717
+    },
+    {
+      "method": "enbpi",
+      "abs_delta_cov_pct": 3.71215610909517,
+      "winkler": 66.36176981425257,
+      "calibration_time_s": 146.97811667544147
+    },
+    {
+      "method": "spic",
+      "abs_delta_cov_pct": 1.737705198784252,
+      "winkler": 64.92227829274431,
+      "calibration_time_s": 657.5322384442565
+    },
+    {
+      "method": "nextcp",
+      "abs_delta_cov_pct": 1.084644125654125,
+      "winkler": 63.225744693897596,
+      "calibration_time_s": 32.99376296190769
+    },
+    {
+      "method": "hopcpt",
+      "abs_delta_cov_pct": 2.139740918938847,
+      "winkler": 63.56981765161386,
+      "calibration_time_s": 270.2160528680664
+    },
+    {
+      "method": "rescp",
+      "abs_delta_cov_pct": 1.225830831115488,
+      "winkler": 58.09776388151115,
+      "calibration_time_s": 106.69671141678214
+    },
+    {
+      "method": "rccp",
+      "abs_delta_cov_pct": 0.938281729454903,
+      "winkler": 51.54891487630337,
+      "calibration_time_s": 62.55566499924976
+    }
+  ]
+}

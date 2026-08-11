@@ -1,0 +1,19 @@
+# @package _global_
+
+#### Dataset params ###########################################################
+dataset:
+  name: elec
+  connectivity:
+    method: identity
+    threshold: 0.1
+    include_self: False
+    layout: edge_index
+
+#### Windowing params #########################################################
+window: 6
+horizon: 1
+stride: 1
+delay: 0
+
+scale_target: True
+add_exogenous: False

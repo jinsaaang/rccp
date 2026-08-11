@@ -1,0 +1,20 @@
+_target_: models.forcast.globallstm.GlobalRNN
+model: global-rnn
+model_params:
+  seq_len: 50
+  batch_size: 32
+  dropout: 0
+  loss: mae
+  train_with_calib: false
+  train_split: 0.75
+  append_y_history: true
+  rnn_conf:
+    hidden_size: 32
+    num_layers: 1
+    dropout: 0
+    cell_type: gru
+  pre_trained_model_path: null
+  pre_trained_predictions_paths: null
+  pre_trained_states_path: null
+  plot_eval_after_train: false
+

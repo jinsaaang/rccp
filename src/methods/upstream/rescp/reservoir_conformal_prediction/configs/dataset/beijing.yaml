@@ -1,0 +1,19 @@
+# @package _global_
+
+#### Dataset params ###########################################################
+dataset:
+  name: beijing
+  connectivity:
+    method: identity # or "correlation", "cosine", "mutual_information", "dtw", "combined_air_quality"
+    threshold: 0.1
+    include_self: False
+    layout: edge_index
+
+#### Windowing params #########################################################
+window: 24 
+horizon: 1
+stride: 1
+delay: 0 # 11 -> start the prediction after delay steps (predict t + delay + 1)
+
+scale_target: False
+add_exogenous: False

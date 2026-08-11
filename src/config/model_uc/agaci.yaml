@@ -1,0 +1,15 @@
+_target_: models.uncertainty.sota.dtaci.AgACIModel
+
+# Zaffran et al. / AdaptiveConformal default grid:
+# {0.001, 0.002, 0.004, 0.008, 0.016, 0.032, 0.064, 0.128}
+gamma_grid_name: paper
+gammas: null
+alpha_init: null
+eps: 0.001
+
+# Use the same online deployment convention as ACI-style baselines.
+online_memory: true
+max_memory: null
+finite_sample: true
+min_alpha: 0.0001
+max_alpha: 0.999

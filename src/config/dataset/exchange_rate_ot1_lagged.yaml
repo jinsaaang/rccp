@@ -1,0 +1,5 @@
+_target_: loader.config.TSDataConfig
+dataset_type: exchange-rate-ot1-lagged
+paths:
+  - /some_base_dir/data/exchange_rate.csv
+add_config:

@@ -1,0 +1,47 @@
+defaults:
+  - optimizer: lr_default
+  - dataset: beijing
+  - conformal_predictor: rexcp_qr
+  - _self_
+
+hydra:
+  run:
+    dir: logs/qrcp/${dataset.name}/${model.name}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+wandb:
+  offline_logging: false
+  project: RExCP
+
+workers: 0
+num_threads: 1
+
+devices: [0]
+
+run_validation: false
+
+#### Encoding params ##########################################################
+use_residuals: true
+use_both: true
+
+#### Training params ##########################################################
+preprocess_exogenous: true          # Use exogenous variables during dataset encoding with reservoir
+append_exogenous: false             # Do not append exogenous to encoded states (legacy parameter)
+append_exogenous_after_encoding: false  # NEW: Do not make exogenous available to encoder-decoder model
+keep_raw: false
+alphas:
+  # - 0.05
+  - 0.1
+  # - 0.2
+epochs: 100
+train_batches: 100
+patience: 50
+batch_size: 64
+
+grad_clip_val: 5
+scale_axis: graph
+
+val_len: 0.1
+
+#### Data loading #############################################################
+
+src_dir: ???

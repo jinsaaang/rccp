@@ -1,0 +1,30 @@
+_target_: models.forcast.rescp_native.ResCPNativeRNN
+model: rescp-native-rnn
+model_params:
+  window: 24
+  delay: 0
+  batch_size: 32
+  dropout: 0
+  loss: mae
+  input_mode: upstream_x_u
+  append_y_history: true
+  val_source: calib_front
+  val_calib_fraction: 0.25
+  limit_train_batches: 100
+  n_epochs: 200
+  val_every: 1
+  patience: 50
+  lr: 0.003
+  weight_decay: 0.0
+  grad_clip_val: 5.0
+  scheduler_factor: 0.5
+  scheduler_patience: 5
+  rnn_conf:
+    hidden_size: 32
+    n_layers: 1
+    dropout: 0
+    cell_type: gru
+  pre_trained_model_path: null
+  pre_trained_predictions_paths: null
+  pre_trained_states_path: null
+  plot_eval_after_train: false

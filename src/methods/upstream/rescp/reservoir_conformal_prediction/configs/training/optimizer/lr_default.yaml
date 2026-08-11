@@ -1,0 +1,20 @@
+# @package _global_
+defaults:
+  - _self_
+
+optimizer:
+  name: Adam
+  hparams:
+    lr: 0.003
+    weight_decay: 0.
+
+lr_scheduler:
+  name: ReduceLROnPlateau
+  hparams:
+    monitor: val_loss
+    mode: min
+    factor: 0.5
+    patience: 5
+    threshold: 1e-4
+    threshold_mode: abs
+    min_lr: 1e-6

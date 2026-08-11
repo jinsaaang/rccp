@@ -1,0 +1,50 @@
+defaults:
+  - optimizer: lr_default
+  - dataset: beijing
+  - conformal_predictor: rexcp_sampling
+  - sampler: sampler
+  - _self_
+
+hydra:
+  run:
+    dir: logs/sampling/${dataset.name}/${model.name}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+wandb:
+  offline_logging: false
+  project: RExCP
+
+
+workers: 0
+num_threads: 1
+
+run_validation: false
+
+seeds: ???
+
+alpha: 0.1
+use_residuals: true
+use_both: false
+
+#### Training params ##########################################################
+# not used
+preprocess_exogenous: false
+keep_raw: false
+alphas:
+  - 0.05
+  - 0.1
+  - 0.2
+epochs: 100
+train_batches: 50
+patience: 50
+batch_size: 64
+
+grad_clip_val: 5
+scale_axis: graph
+
+val_len: 0.1
+
+devices: 0
+
+#### Data loading #############################################################
+
+src_dir: ???

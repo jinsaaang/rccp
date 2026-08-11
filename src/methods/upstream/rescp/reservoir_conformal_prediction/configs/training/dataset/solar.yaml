@@ -1,0 +1,19 @@
+# @package _global_
+
+#### Dataset params ###########################################################
+dataset:
+  name: solar
+  connectivity:
+    method: identity
+    threshold: 0.1
+    include_self: False
+    layout: edge_index
+
+#### Windowing params #########################################################
+window: 24 # hourly data
+horizon: 1
+stride: 1
+delay: 0 # -> start the prediction after delay steps (predict t + delay + 1)
+
+scale_target: True
+add_exogenous: True

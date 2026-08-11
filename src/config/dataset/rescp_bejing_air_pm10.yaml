@@ -1,0 +1,7 @@
+_target_: loader.config.TSDataConfig
+dataset_type: rescp-air-10
+paths:
+  - /some_base_dir/data/bejing_air_quality
+add_config:
+  skip_global_norm: true
+  include_temporal: true

@@ -1,0 +1,22 @@
+# @package _global_
+
+#### Model params #############################################################
+model:
+  name: RExCP_QR
+  hparams: {}
+  encoder:
+    name: reservoir
+    hparams:
+      emb_size: 16
+      n_internal_units: 512 # reservoir_size
+      leak: 0.8
+      spectral_radius: 0.95
+      input_scaling: 0.1
+      noise_level: 0.0
+      connectivity: 0.2
+      circle: false
+      dimred_method: null
+  decoder:
+    name: multiquantile
+    hparams:
+      hidden_size: ${model.encoder.hparams.n_internal_units}

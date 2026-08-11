@@ -1,0 +1,21 @@
+_target_: models.uncertainty.sota.dtaci.DtACIModel
+
+# Gibbs-Candes DtACI uses a grid of ACI learning rates. The default is the
+# grid used by AdaptiveConformal and the DtACI reference examples.
+gamma_grid_name: paper
+gammas: null
+alpha_init: null
+
+# Reference implementation defaults from isgibbs/DtACI.
+sigma: 0.001
+eta: 2.72
+eta_adapt: false
+eta_lookback: 500
+selection_mode: mean
+random_state: 0
+
+online_memory: true
+max_memory: null
+finite_sample: true
+min_alpha: 0.0001
+max_alpha: 0.999

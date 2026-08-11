@@ -1,0 +1,13 @@
+_target_: loader.config.TaskConfig
+task_type: 'PI'
+alpha: [0.1]
+data_splits: [0.4, 0.4, 0.2]
+fc_estimator_mode: single
+global_norm: true
+add_config:
+  # Common central eval split for methods sharing the ResCP paper backbone.
+  # Train ends where upstream residual artifacts begin. Calibration covers all
+  # labels before the upstream filtered test block, and test starts at 28056.
+  train_steps: 16844
+  calib_steps: 11212
+  max_steps: 35040

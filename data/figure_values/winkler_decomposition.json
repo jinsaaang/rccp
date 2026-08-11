@@ -1,0 +1,307 @@
+{
+  "metadata": {
+    "figure": "winkler_decomposition",
+    "alpha": 0.1,
+    "target_coverage": 0.9,
+    "tag": "full4_mse442_bs256_h128_alpha_sweep_v1_a0p1",
+    "forecaster": "global_lstm",
+    "seed_scope": "seeds_0_to_4_mean",
+    "methods_included": [
+      "scp",
+      "enbpi",
+      "spic",
+      "nextcp",
+      "hopcpt",
+      "rescp",
+      "rccp"
+    ],
+    "scp_note": "scp is the renamed default split conformal baseline.",
+    "source": "results/analysis/alpha01_width_tail_diagnostics/all_methods_winkler_decomposition_alpha01.csv",
+    "definition": {
+      "miss_penalty": "winkler - mean_interval_width",
+      "delta_cov_pct": "(coverage - target_coverage) * 100"
+    }
+  },
+  "data": [
+    {
+      "dataset": "air",
+      "method": "scp",
+      "coverage": 0.9016585875867312,
+      "delta_cov_pct": 0.1658587586731319,
+      "width": 62.62468163290242,
+      "miss_penalty": 49.60638099328135,
+      "winkler": 112.2310626261838,
+      "time_s": 38.96010236560833
+    },
+    {
+      "dataset": "air",
+      "method": "enbpi",
+      "coverage": 0.8363534835091722,
+      "delta_cov_pct": -6.364651649082786,
+      "width": 53.300633072152856,
+      "miss_penalty": 57.04313943948301,
+      "winkler": 110.34377251163588,
+      "time_s": 146.44187658401205
+    },
+    {
+      "dataset": "air",
+      "method": "spic",
+      "coverage": 0.8932373348541013,
+      "delta_cov_pct": -0.6762665145898739,
+      "width": 63.31399791034248,
+      "miss_penalty": 45.56771976437228,
+      "winkler": 108.88171767471476,
+      "time_s": 671.8294134225929
+    },
+    {
+      "dataset": "air",
+      "method": "nextcp",
+      "coverage": 0.8896754110825966,
+      "delta_cov_pct": -1.03245889174034,
+      "width": 63.73791348596294,
+      "miss_penalty": 39.91524496115657,
+      "winkler": 103.65315844711952,
+      "time_s": 38.61697317538783
+    },
+    {
+      "dataset": "air",
+      "method": "hopcpt",
+      "coverage": 0.897742610018059,
+      "delta_cov_pct": -0.2257389981941027,
+      "width": 62.328998653563055,
+      "miss_penalty": 49.18453191335342,
+      "winkler": 111.51353056691646,
+      "time_s": 266.53694855920037
+    },
+    {
+      "dataset": "air",
+      "method": "rescp",
+      "coverage": 0.8987192282102463,
+      "delta_cov_pct": -0.128077178975372,
+      "width": 61.23937535574653,
+      "miss_penalty": 40.00617867360923,
+      "winkler": 101.24555402935576,
+      "time_s": 17.389439332997426
+    },
+    {
+      "dataset": "air",
+      "method": "rccp",
+      "coverage": 0.9030605455755156,
+      "delta_cov_pct": 0.3060545575515605,
+      "width": 64.79373304185188,
+      "miss_penalty": 28.594523513384736,
+      "winkler": 93.3882565552366,
+      "time_s": 2.021095506823621
+    },
+    {
+      "dataset": "solar",
+      "method": "scp",
+      "coverage": 0.9143664006081338,
+      "delta_cov_pct": 1.4366400608133767,
+      "width": 35.44700307894352,
+      "miss_penalty": 27.84447885490832,
+      "winkler": 63.29148193385184,
+      "time_s": 97.78179629221559
+    },
+    {
+      "dataset": "solar",
+      "method": "enbpi",
+      "coverage": 0.8818107183580388,
+      "delta_cov_pct": -1.8189281641961208,
+      "width": 22.47737183816113,
+      "miss_penalty": 32.92516094026526,
+      "winkler": 55.40253277842639,
+      "time_s": 450.78628476038574
+    },
+    {
+      "dataset": "solar",
+      "method": "spic",
+      "coverage": 0.9090741163055872,
+      "delta_cov_pct": 0.9074116305587075,
+      "width": 27.778729316122764,
+      "miss_penalty": 26.943610538176745,
+      "winkler": 54.72233985429951,
+      "time_s": 1974.4763119942277
+    },
+    {
+      "dataset": "solar",
+      "method": "nextcp",
+      "coverage": 0.8917582668187002,
+      "delta_cov_pct": -0.8241733181299837,
+      "width": 26.41150728151763,
+      "miss_penalty": 25.12661492466972,
+      "winkler": 51.53812220618735,
+      "time_s": 102.3035349521786
+    },
+    {
+      "dataset": "solar",
+      "method": "hopcpt",
+      "coverage": 0.9065465602432536,
+      "delta_cov_pct": 0.6546560243253507,
+      "width": 27.858566464533236,
+      "miss_penalty": 9.910742741450305,
+      "winkler": 37.76930920598353,
+      "time_s": 867.2584361278219
+    },
+    {
+      "dataset": "solar",
+      "method": "rescp",
+      "coverage": 0.9122797415431396,
+      "delta_cov_pct": 1.22797415431396,
+      "width": 20.071004040651747,
+      "miss_penalty": 18.882249529529364,
+      "winkler": 38.953253570181104,
+      "time_s": 34.132688081427474
+    },
+    {
+      "dataset": "solar",
+      "method": "rccp",
+      "coverage": 0.908512352717598,
+      "delta_cov_pct": 0.8512352717597871,
+      "width": 18.49840581755617,
+      "miss_penalty": 7.533326484973469,
+      "winkler": 26.03173230252964,
+      "time_s": 8.71058558721561
+    },
+    {
+      "dataset": "electricity",
+      "method": "scp",
+      "coverage": 0.949855072463768,
+      "delta_cov_pct": 4.985507246376808,
+      "width": 0.2028822608011356,
+      "miss_penalty": 0.0411266544590825,
+      "winkler": 0.2440089152602182,
+      "time_s": 2.702160075609572
+    },
+    {
+      "dataset": "electricity",
+      "method": "enbpi",
+      "coverage": 0.8704347826086956,
+      "delta_cov_pct": -2.9565217391304466,
+      "width": 0.1465059865471245,
+      "miss_penalty": 0.0926712369573289,
+      "winkler": 0.2391772235044534,
+      "time_s": 3.606984685221687
+    },
+    {
+      "dataset": "electricity",
+      "method": "spic",
+      "coverage": 0.9362318840579712,
+      "delta_cov_pct": 3.6231884057971055,
+      "width": 0.1879519411619158,
+      "miss_penalty": 0.0479334978089816,
+      "winkler": 0.2358854389708975,
+      "time_s": 6.627295108395629
+    },
+    {
+      "dataset": "electricity",
+      "method": "nextcp",
+      "coverage": 0.9107246376811596,
+      "delta_cov_pct": 1.07246376811595,
+      "width": 0.1666571355125178,
+      "miss_penalty": 0.066629828059155,
+      "winkler": 0.2332869635716728,
+      "time_s": 2.4154062738409263
+    },
+    {
+      "dataset": "electricity",
+      "method": "hopcpt",
+      "coverage": 0.9460869565217392,
+      "delta_cov_pct": 4.60869565217391,
+      "width": 0.2039282809565032,
+      "miss_penalty": 0.0417912215426348,
+      "winkler": 0.2457195024991381,
+      "time_s": 6.694951458228752
+    },
+    {
+      "dataset": "electricity",
+      "method": "rescp",
+      "coverage": 0.911304347826087,
+      "delta_cov_pct": 1.1304347826087024,
+      "width": 0.163061766339385,
+      "miss_penalty": 0.0675716301669245,
+      "winkler": 0.2306333965063095,
+      "time_s": 4.098876660200767
+    },
+    {
+      "dataset": "electricity",
+      "method": "rccp",
+      "coverage": 0.8933333333333333,
+      "delta_cov_pct": -0.666666666666671,
+      "width": 0.1512710431245897,
+      "miss_penalty": 0.0741438217770958,
+      "winkler": 0.2254148649016855,
+      "time_s": 0.519433206156827
+    },
+    {
+      "dataset": "wind",
+      "method": "scp",
+      "coverage": 0.9023792357606344,
+      "delta_cov_pct": 0.2379235760634479,
+      "width": 63.27845295477705,
+      "miss_penalty": 32.912279394434435,
+      "winkler": 96.19073234921149,
+      "time_s": 2.942143060197122
+    },
+    {
+      "dataset": "wind",
+      "method": "enbpi",
+      "coverage": 0.8766402307137706,
+      "delta_cov_pct": -2.3359769286229404,
+      "width": 59.471105822678,
+      "miss_penalty": 38.35294417124819,
+      "winkler": 97.8240499939262,
+      "time_s": 6.6923810508102175
+    },
+    {
+      "dataset": "wind",
+      "method": "spic",
+      "coverage": 0.8785868781542898,
+      "delta_cov_pct": -2.1413121845710203,
+      "width": 57.84697713006205,
+      "miss_penalty": 41.20301167296263,
+      "winkler": 99.04998880302468,
+      "time_s": 21.53691143495962
+    },
+    {
+      "dataset": "wind",
+      "method": "nextcp",
+      "coverage": 0.8998558038932949,
+      "delta_cov_pct": -0.014419610670513,
+      "width": 62.48567057487857,
+      "miss_penalty": 31.91925911879316,
+      "winkler": 94.40492969367172,
+      "time_s": 3.0467196816578506
+    },
+    {
+      "dataset": "wind",
+      "method": "hopcpt",
+      "coverage": 0.918817591925018,
+      "delta_cov_pct": 1.8817591925018085,
+      "width": 71.33062175868996,
+      "miss_penalty": 27.165237380002328,
+      "winkler": 98.4958591386923,
+      "time_s": 11.325217258394696
+    },
+    {
+      "dataset": "wind",
+      "method": "rescp",
+      "coverage": 0.9143475126171592,
+      "delta_cov_pct": 1.4347512617159277,
+      "width": 63.038260580501536,
+      "miss_penalty": 26.657090726823544,
+      "winkler": 89.69535130732508,
+      "time_s": 6.316641370602883
+    },
+    {
+      "dataset": "wind",
+      "method": "rccp",
+      "coverage": 0.9016582552271089,
+      "delta_cov_pct": 0.1658255227108829,
+      "width": 60.03440461784091,
+      "miss_penalty": 24.30793726018696,
+      "winkler": 84.34234187802788,
+      "time_s": 0.5959962507942684
+    }
+  ]
+}

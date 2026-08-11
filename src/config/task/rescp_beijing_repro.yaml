@@ -1,0 +1,14 @@
+_target_: loader.config.TaskConfig
+task_type: 'PI'
+alpha: [0.1]
+data_splits: [0.4, 0.4, 0.2]
+fc_estimator_mode: single
+global_norm: true
+add_config:
+  # Match the upstream TSL sample windows for Beijing/RNN:
+  # train targets 24..16819, calibration/validation targets 16820..28031,
+  # and test targets 28032..35039.
+  train_steps: 16820
+  calib_steps: 11212
+  max_steps: 35040
+  mask_test_warmup_skip: 24

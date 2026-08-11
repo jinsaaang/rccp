@@ -1,0 +1,28 @@
+name: rccp-repro
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - matplotlib
+  - numpy
+  - pandas
+  - pytorch
+  - pyyaml
+  - hydra-core
+  - omegaconf
+  - torchmetrics
+  - tqdm
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - seaborn
+  - einops
+  - pytorch-lightning
+  - tensorboard
+  - pillow
+  - pip
+  - pip:
+      - hopfield-layers
+      - lightning
+      - quantile-forest

@@ -1,0 +1,5 @@
+_target_: models.forcast.rescp_paper.ResCPPaperForecaster
+model: rescp-paper-rnn
+model_params:
+  artifact_dir: <repo>/methods/upstream/rescp/reservoir_conformal_prediction/logs/base/beijing/rnn/2026-05-16/00-07-55
+  clip_residuals: true

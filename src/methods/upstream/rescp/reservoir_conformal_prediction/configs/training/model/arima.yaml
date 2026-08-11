@@ -1,0 +1,13 @@
+# @package _global_
+model:
+  name: arima
+  hparams:
+    order: [3, 1, 3]  # (p, d, q) - autoregressive, differencing, moving average
+    seasonal_order: [0, 0, 0, 0]  # (P, D, Q, S) - seasonal parameters
+    enforce_stationarity: true
+    enforce_invertibility: true
+
+# ARIMA-specific training parameters
+epochs: 1  # ARIMA doesn't need epochs, but trainer expects this
+train_batches: 1  # Dummy value for ARIMA
+patience: 1  # No early stopping needed for ARIMA

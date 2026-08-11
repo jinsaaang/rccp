@@ -1,0 +1,23 @@
+_target_: models.uncertainty.sota.ct_ssf.CTSSFHiddenStateModel
+
+# CT-SSF over the shared global forecaster state:
+# z is the saved global LSTM/Transformer hidden state; g/inv_g/LiRPA follow the
+# upstream CT-SSF implementation.
+feature_norm: inf
+inv_lr: 0.001
+inv_step: 80
+inv_optimizer: sgd
+inverse_batch_size: 512
+certification_method: ibp
+eps: 0.000001
+output_slack: true
+
+head_hidden_size: 64
+head_epochs: 10
+head_batch_size: 64
+head_lr: 0.0005
+head_weight_decay: 0.000001
+head_val_ratio: 0.05
+head_cv_random_state: 1
+head_seed: null
+debug: false
