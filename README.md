@@ -1,6 +1,6 @@
 # Retrieval-Corrected Conformal Prediction for Time Series
 
-Official implementation of the CIKM 2026 paper **Retrieval-Corrected Conformal Prediction for Time Series**. This package contains the code, configurations, source data, checkpoints, and processed figure values needed to reproduce the main alpha 0.1 analysis from the paper.
+Official implementation of the [CIKM 2026](https://cikm2026.diag.uniroma1.it/) paper **Retrieval-Corrected Conformal Prediction for Time Series** 🇮🇹. This package contains the code, configurations, source data, checkpoints, and processed figure values needed to reproduce the main alpha 0.1 analysis from the paper.
 
 <p align="center">
   <img src="assets/main_fig.png" alt="Method overview" width="72%">
